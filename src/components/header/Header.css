@@ -1,0 +1,22 @@
+.news-row {
+    align-items: center;
+    display: flex;
+}
+
+.news-logo {
+    align-items: center;
+    display: flex;
+}
+
+.news-logo img {
+    padding: 5px 5px 5px 5px;
+}
+
+.news-logo span {
+    font-size: 30px;
+    padding-left: 5px;
+}
+
+.menu {
+    font-size: 14px;
+}
