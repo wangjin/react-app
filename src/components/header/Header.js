@@ -1,9 +1,7 @@
 import React from 'react'
 import NewLogo from '../../images/news_logo.svg'
-import {Row, Col} from 'antd';
+import {Button, Col, Form, Icon, Input, Menu, message, Modal, Row, Tabs} from 'antd';
 import './Header.css'
-
-import {Menu, Icon, Button, Modal, Tabs, Form, Input, message} from 'antd';
 
 const SubMenu = Menu.SubMenu;
 const MenuItemGroup = Menu.ItemGroup;
@@ -12,7 +10,7 @@ const FormItem = Form.Item;
 
 class Header extends React.Component {
 
-    constructor(){
+    constructor() {
         super();
         this.state = {
             current: 'mail',
